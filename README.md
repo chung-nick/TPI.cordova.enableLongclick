@@ -1,0 +1,1 @@
+# TPI.cordova.enableLongclick
