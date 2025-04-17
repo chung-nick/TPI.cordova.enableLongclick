@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-enable-longclick" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>EnableLongClick</name>
+  <platform name="android">
+    <source-file src="src/android/EnableLongClick.java" target-dir="src/com/example/enablelongclick" />
+    <config-file target="config.xml" parent="/*">
+      <feature name="EnableLongClick">
+        <param name="android-package" value="com.example.enablelongclick.EnableLongClick" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+  </platform>
+</plugin>

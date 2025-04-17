@@ -1,0 +1,18 @@
+{
+  "name": "cordova-enable-longclick",
+  "version": "1.0.0",
+  "description": "Cordova plugin to enable long click in Android WebView",
+  "cordova": {
+    "id": "cordova-enable-longclick",
+    "platforms": ["android"]
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "android",
+    "webview",
+    "longclick"
+  ],
+  "author": "you",
+  "license": "MIT"
+}
